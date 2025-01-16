@@ -1,0 +1,24 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+@use 'sass:color';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body, #__nuxt {
+    width: 100%;
+    height: 100dvh;
+    //color-scheme: dark light;
+}
+
+input, textarea, select, button {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}

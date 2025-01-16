@@ -1,0 +1,25 @@
+@use 'sass:map';
+
+$colors: (
+    primary: (
+        500: #ffffff,
+        400: #e8e8e8,
+        300: #bdbdbd,
+        200: #838383,
+        100: #676767,
+        0: #2c2c2c,
+    ),
+    accent: (
+        500: #13dd80,
+        400: #27c87e,
+        300: #3ab67d,
+        200: #41a678,
+        100: #378a64,
+    ),
+);
+
+@function color-get($base, $shade: 500) {
+    $color: map.get(map.get($colors, $base), $shade);
+    @return $color;
+}
+
