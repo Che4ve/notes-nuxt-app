@@ -1,0 +1,1 @@
+import{_ as r,o as t,c as l,a as n,y as o,F as s}from"./CdW2Co5G.js";const c={};function u(a,e){return t(),l(s,null,[e[0]||(e[0]=n("header",null,null,-1)),n("main",null,[o(a.$slots,"default")])],64)}const f=r(c,[["render",u]]);export{f as default};
